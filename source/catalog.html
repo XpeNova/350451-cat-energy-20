@@ -16,18 +16,18 @@
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active">
-            <a>
+          <li class="site-list__item">
+            <a class="site-list__link" href="index.html">
               Главная
             </a>
           </li>
-          <li class="site-list__item">
-            <a href="#">
+          <li class="site-list__item site-list__item--active">
+            <a class="site-list__link">
               Каталог продукции
             </a>
           </li>
           <li class="site-list__item">
-            <a href="#">
+            <a class="site-list__link" href="catalog.html">
               Подбор программы
             </a>
           </li>
@@ -43,20 +43,18 @@
             <img class="catalog__img" src="" alt="">
             <p class="catalog__item-name">Cat Energy PRO 500 г</p>
             <table class="catalog__table">
-              <tbody>
-                <tr>
-                  <td class="catalog__weight">Объем</td>
-                  <td class="catalog__weight-value">500 г</td>
-                </tr>
-                <tr>
-                  <td class="catalog__taste">Вкус</td>
-                  <td class="catalog__taste-value">Курица</td>
-                </tr>
-                <tr>
-                  <td class="catalog__price">Цена</td>
-                  <td class="catalog__price-value">700 Р.</td>
-                </tr>
-              </tbody>
+              <tr>
+                <td class="catalog__weight">Объем</td>
+                <td class="catalog__weight-value">500 г</td>
+              </tr>
+              <tr>
+                <td class="catalog__taste">Вкус</td>
+                <td class="catalog__taste-value">Курица</td>
+              </tr>
+              <tr>
+                <td class="catalog__price">Цена</td>
+                <td class="catalog__price-value">700 Р.</td>
+              </tr>
             </table>
             <a class="catalog__button" href="#">Заказать</a>
           </li>
@@ -181,6 +179,46 @@
         <h2 class="view-all__title">Показать еще 100500 товаров</h2>
         <p class="view-all__text">На самом деле вкусов гораздо больше!</p>
         <a class="view-all__button" href="#">Показать все</a>
+      </section>
+      <section class="additional">
+        <ul>
+          <li class="additional__item">
+            <p class="additional__item-name">Сахарозаменитель</p>
+            <p class="additional__value">1 упаковка (100 г)</p>
+            <p class="additional__price">200 Р.</p>
+            <a class="additional__button" href="#">Заказать</a>
+          </li>
+          <li class="additional__item">
+            <p class="additional__item-name">питьевая вода</p>
+            <p class="additional__value">5 литров</p>
+            <p class="additional__price">50 Р.</p>
+            <a class="additional__button" href="#">Заказать</a>
+          </li>
+          <li class="additional__item">
+            <p class="additional__item-name">молоко</p>
+            <p class="additional__value">1 литр</p>
+            <p class="additional__price">100 Р.</p>
+            <a class="additional__button" href="#">Заказать</a>
+          </li>
+          <li class="additional__item">
+            <p class="additional__item-name">витамины</p>
+            <p class="additional__value">1 упаковка (30 г)</p>
+            <p class="additional__price">300 Р.</p>
+            <a class="additional__button" href="#">Заказать</a>
+          </li>
+        </ul>
+      </section>
+      <section class="gifts">
+        <img class="gifts__img" src="https://via.placeholder.com/150x150" alt="">
+      </section>
+      <section class="contacts">
+        <div class="contacts__adress ">
+          <p class="contacts__title">приглашаем к сотрудничеству дилеров!</p>
+          <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
+        <div class="contacts__map">
+          <img class="contacts__map" src="" alt="">
+        </div>
       </section>
     </main>
     <footer class="page-footer">
