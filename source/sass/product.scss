@@ -1,0 +1,32 @@
+// background-color
+// background-img
+// font
+// size
+// межстрочный интервал
+// color
+// внутренние и внешние отступы
+// обводка для врупных сеточных блоков
+.product__item {
+  background-color: var(--basic_grey);
+}
+.product__title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.product__text {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.product__button {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
