@@ -1,19 +1,13 @@
-// font-family: Arial;
-// font-weight: normal;
-// font-size: 14px;
-// line-height: 18px;
-// color: #444444;
-// Начните писать стили здесь
 :root {
-  --basic_green: #68B738;
-  --basic_green-2: #5EAA2F;
-  --basic_grey: #F2F2F2;
-  --special_grey: #EBEBEB;
-  --special_grey-2: #CDCDCD;
+  --basic_green: #68b738;
+  --basic_green-2: #5eaa2f;
+  --basic_grey: #f2f2f2;
+  --special_grey: #ebebeb;
+  --special_grey-2: #cdcdcd;
   --special_grey-3: #666666;
   --special_dark-grey: #444444;
   --special_dark-grey-2: #222222;
-  --status_error: #FF8282;
+  --status_error: #ff8282;
 }
 
 @import "page__body.scss";
@@ -23,5 +17,6 @@
 @import "product.scss";
 @import "benefits.scss";
 @import "page-footer.scss";
-
 @import "page-main.scss";
+@import "catalog.scss";
+@import "view-all.scss";

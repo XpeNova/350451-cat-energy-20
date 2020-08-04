@@ -1,0 +1,25 @@
+// font-weight: normal;
+// font-size: 14px;
+// line-height: 18px;
+// color: #444444;
+.catalog__item-name {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--special_dark-grey-2);
+}
+
+.catalog__table {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--special_dark-grey);
+}
+
+.catalog__button {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0px;
+  color: #ffffff;
+}
