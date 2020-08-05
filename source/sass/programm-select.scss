@@ -1,6 +1,6 @@
 .programm-select {
-  background: url(../img/index-background-mobile@1x.jpg);
-  background-color: #eeeeee;
+  background: url("../img/index-background-mobile@1x.jpg");
+  background-color: var(--programm-background);
   background-repeat: no-repeat;
 }
 
@@ -8,19 +8,20 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 36px;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .programm-select__text {
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .programm-select__button {
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #ffffff;
+  color: var(--white);
+  background-color: var(--basic_green);
 }
