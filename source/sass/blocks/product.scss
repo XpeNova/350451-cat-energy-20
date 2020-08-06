@@ -7,10 +7,11 @@
   font-size: 24px;
   line-height: 37px;
   color: var(--black);
+  text-transform: uppercase;
 }
 
 .product__text {
-  font-family: "arial", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
@@ -22,4 +23,6 @@
   font-size: 16px;
   line-height: 16px;
   color: var(--black);
+  text-transform: uppercase;
+  text-decoration: none;
 }

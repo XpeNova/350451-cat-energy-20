@@ -3,10 +3,11 @@
   font-size: 16px;
   line-height: 20px;
   color: var(--view-all-title);
+  text-transform: uppercase;
 }
 
 .view-all__text {
-  font-family: "arial", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
@@ -18,4 +19,7 @@
   font-size: 16px;
   line-height: 0px;
   color: var(--special_dark-grey);
+  background-color: var(--basic_grey);
+  text-transform: uppercase;
+  text-decoration: none;
 }
