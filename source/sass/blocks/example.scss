@@ -1,0 +1,26 @@
+.example {
+  background-color: var(--example-background);
+}
+
+.example__title {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  color: var(--black);
+}
+
+.example__text {
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 86px;
+  color: var(--special_dark-grey);
+}
+
+.example__cost {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--black);
+  text-transform: uppercase;
+}

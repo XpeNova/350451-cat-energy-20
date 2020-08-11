@@ -51,18 +51,18 @@
             <label class="form__label"> Возраст (лет):
               <input class="form__input" type="text" name="pet-age" value="" placeholder="7">
             </label>
-            <label class="form__label">
+            <label class="form__label form__label-radio">
               <input class="form__radio" type="radio" name="goal" value="weight-loose" checked>Похудение
             </label>
-            <label class="form__label">
+            <label class="form__label form__label-radio">
               <input class="form__radio" type="radio" name="goal" value="weight-gain">Набор массы
             </label>
-            <label class="form__label">
+            <label class="form__label form__label-radio">
               <input class="form__radio" type="radio" name="goal" value="need-help">Не знаю (Нужен ваш совет)
             </label>
           </div>
           <div class="form__owner-info">
-            <p class="form__contacts">Контактные данные (владельца кота)</p>
+            <p class="form__contacts form__heading">Контактные данные (владельца кота)</p>
             <label class="form__label"> E-mail*
               <input class="form__input" type="email" name="email" value="" placeholder="kuklachev@gmail.com">
             </label>
@@ -71,26 +71,26 @@
             </label>
           </div>
           <div class="form__comments">
-            <p class="form__comments-text">Комментарий</p>
-            <textarea class="from__textarea" name="comment" rows="8" cols="80" placeholder="Расскажите обо всех повадках кота"></textarea>
+            <p class="form__comments-text form__heading">Комментарий</p>
+            <textarea class="form__textarea" name="comment" rows="8" cols="80" placeholder="Расскажите обо всех повадках кота"></textarea>
           </div>
           <div class="form__additionl-submit">
-            <p class="form__additionl">Дополнительно</p>
-            <label class="form__label">
+            <p class="form__additionl form__heading">Дополнительно</p>
+            <label class="form__label form__label-checkbox">
               <input class="form__checkbox" type="checkbox" name="additional" value="" checked>Сахарозаменитель
             </label>
-            <label class="form__label">
+            <label class="form__label form__label-checkbox">
               <input class="form__checkbox" type="checkbox" name="additional" value="" >Питьевая вода
             </label>
-            <label class="form__label">
+            <label class="form__label form__label-checkbox">
               <input class="form__checkbox" type="checkbox" name="additional" value="" >Молоко
             </label>
             <label class="form__label">
               <input class="form__checkbox" type="checkbox" name="additional" value="" >Витамины
             </label>
-            <input class="form__submit" type="submit" name="" value="Отправить заявку">
-            <p class="form__required-field">*-Обязательные поля</p>
           </div>
+          <input class="form__submit" type="submit" name="" value="Отправить заявку">
+          <p class="form__required-field">*-Обязательные поля</p>
         </form>
       </section>
       <section class="contacts">
