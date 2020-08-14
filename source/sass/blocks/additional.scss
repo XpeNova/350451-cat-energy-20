@@ -2,7 +2,7 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 24px;
-  color: var(--black);
+  color: $black;
 }
 
 .additional__list {
@@ -13,7 +13,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 16px;
-  color: var(--special_dark-grey-2);
+  color: $special_dark-grey-2;
   text-transform: uppercase;
 }
 
@@ -22,15 +22,15 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
-  color: var(--special_dark-grey);
+  color: $special_dark-grey;
 }
 
 .additional__button {
   font-weight: normal;
   font-size: 16px;
   line-height: 0px;
-  color: var(--white);
-  background-color: var(--basic_green);
+  color: $white;
+  background-color: $basic_green;
   text-transform: uppercase;
   text-decoration: none;
 }

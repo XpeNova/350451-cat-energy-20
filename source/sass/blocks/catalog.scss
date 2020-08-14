@@ -6,7 +6,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: var(--special_dark-grey-2);
+  color: $special_dark-grey-2;
   text-transform: uppercase;
 }
 
@@ -15,15 +15,15 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  color: var(--special_dark-grey);
+  color: $special_dark-grey;
 }
 
 .catalog__button {
   font-weight: normal;
   font-size: 16px;
   line-height: 0px;
-  color: var(--white);
-  background-color: var(--basic_green);
+  color: $white;
+  background-color: $basic_green;
   text-transform: uppercase;
   text-decoration: none;
 }

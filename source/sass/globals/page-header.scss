@@ -1,3 +1,12 @@
 .page-header {
-  background-color: var(--white);
+  display: flex;
+  background-color: $white;
+}
+
+.page-header__logo {
+  height: 66px;
+
+  @media (min-width: $tablet-width) {
+    height:
+  }
 }

@@ -6,7 +6,7 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 40px;
-  color: var(--black);
+  color: $black;
 }
 
 .benefits__text {
@@ -14,5 +14,5 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: var(--special_dark-grey);
+  color: $special_dark-grey;
 }

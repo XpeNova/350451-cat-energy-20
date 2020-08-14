@@ -2,7 +2,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: var(--view-all-title);
+  color: $view-all-title;
   text-transform: uppercase;
 }
 
@@ -11,15 +11,15 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  color: var(--special_dark-grey);
+  color: $special_dark-grey;
 }
 
 .view-all__button {
   font-weight: normal;
   font-size: 16px;
   line-height: 0px;
-  color: var(--special_dark-grey);
-  background-color: var(--basic_grey);
+  color: $special_dark-grey;
+  background-color: $basic_grey;
   text-transform: uppercase;
   text-decoration: none;
 }
